@@ -1,0 +1,49 @@
+<% layout('layouts/boilerplate')%>
+    <div class="card shadow mb-4 d-none d-md-block">
+        <div id='cluster-map'></div>
+    </div>
+    <h1 class="display-6 text-center mb-4">Search and View Our Campgrounds</h1>
+    <form action="/results/?" class="d-flex mb-5">
+        <input class="form-control me-2" type="search" placeholder="Search Your Campgrounds ...." name="search_query" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    <h1 class="mb-4">All Campgrounds</h1>
+    <%for (let campground of campgrounds){%>
+        <div class="card shadow campground-card mb-4">
+            <div class="row g-0">
+                <div class="d-none d-md-block col-md-6 col-lg-4 col-xl-3"
+                    style="background: url('<%= campground.images[0].url %>'); background-position: center; background-size: cover;">
+                </div>
+                <div class="col-12 col-md-6 col-lg-8 col-xl-9">
+                    <div class="card-body d-flex flex-column h-100">
+                        <div class="d-flex align-items-start mb-2">
+                            <img class="d-md-none me-3 img-thumbnail" id="indexThumbnail"
+                                src="<%= campground.images[0].url %> ">
+                            <div>
+                                <h5 class="card-title">
+                                    <%= campground.title %>
+                                </h5>
+                                <h6 class="card-subtitle text-muted">
+                                    <%= campground.location %>
+                                </h6>
+                                <p class="card-text text-muted"><small>$<%= campground.price %>/night</small></p>
+                            </div>
+                        </div>
+                        <p class="card-text">
+                            <%= campground.description %>
+                        </p>
+                        <a class="card-link stretched-link" href="/campgrounds/<%= campground._id %>">
+                            <span class="visually-hidden">View campground</span>
+                        </a>
+                        <small class="mt-auto text-muted">Submitted by: <%= campground.author.username %></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%}%>
+        <script>
+            // public mapbox token
+            const mapToken= '<%-process.env.MAPBOX_TOKEN%>'; 
+            const campgrounds = { features: <%- JSON.stringify(campgrounds) %> };
+      </script>
+            <script src="/javascripts/clusterMap.js"></script>
