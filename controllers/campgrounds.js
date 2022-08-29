@@ -63,7 +63,7 @@ module.exports.updateCampground = async (req, res, next) => {
     const imgs = req.files.map(f => ({ url: f.path, filename: f.filename }));
     camp.images.push(...imgs);
     await camp.save();
-    if(req.body.deleteImages && req.body.deleteImages.length==1)
+    if(req.body.deleteImages && camp.images.length==1)
     {
         req.flash('error','Camp must have atleast one Image');
         return res.redirect("/campgrounds/" + camp._id);
