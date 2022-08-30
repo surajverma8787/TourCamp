@@ -6,7 +6,7 @@ TourCamp is a website where users can create and review campgrounds. In order to
 This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
 
 
-## Demo
+## Project Link
 
 https://still-atoll-14540.herokuapp.com/
 
@@ -65,7 +65,7 @@ Edit Campground
     - Manage Campgrounds you Post
 
 
-## Stack
+## TechStack
 - Front End
     - HTML, CSS, Bootsrap 
     - EJS
