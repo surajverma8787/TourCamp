@@ -5,43 +5,6 @@ TourCamp is a website where users can create and review campgrounds. In order to
 
 This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
 
-
-## Project Link
-
-https://still-atoll-14540.herokuapp.com/
-
-## Gallery
-Home
-![Home](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Home.png)
-
-Login Page
-![Login Page](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Login%20Page.png)
-
-Register Page
-![Register Page](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Register%20Page.png)
-
-The Map
-![Map](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/The%20Map.png)
-
-Search any TourCamp
-![Search](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Search%20and%20View%20Campground.png)
-
-All Campgrounds
-![All Campgrounds](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/All%20Campgrounds.png)
-
-Show Campgrounds
-![Show Campgrounds](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Show%20campgrounds.png)
-
-Leave a Review
-![Leave a Review](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Leave%20Review.png)
-
-Add Campground
-![Add Campground](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Add%20Campground.png)
-
-Edit Campground
-![Edit Campground](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Edit%20campground.png)
-
-
 ## Features
 
 - Authentication
@@ -81,8 +44,40 @@ Edit Campground
     - Nodejs, Express
 
 
+## Project Link
 
+https://still-atoll-14540.herokuapp.com/
 
+## Gallery
+Home
+![Home](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Home.png)
+
+Login Page
+![Login Page](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Login%20Page.png)
+
+Register Page
+![Register Page](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Register%20Page.png)
+
+The Map
+![Map](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/The%20Map.png)
+
+Search any TourCamp
+![Search](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Search%20and%20View%20Campground.png)
+
+All Campgrounds
+![All Campgrounds](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/All%20Campgrounds.png)
+
+Show Campgrounds
+![Show Campgrounds](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Show%20campgrounds.png)
+
+Leave a Review
+![Leave a Review](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Leave%20Review.png)
+
+Add Campground
+![Add Campground](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Add%20Campground.png)
+
+Edit Campground
+![Edit Campground](https://raw.githubusercontent.com/surajverma8787/TourCamp/master/TourCamp%20Screenshots/Edit%20campground.png)
 
 ## Authors
 
